@@ -8,11 +8,23 @@
 *.war
 *.ear
 
+# JMH files
+BenchmarkList
+CompilerHints
+
+#target/classes/*
+#target/generated-sources/*
+#target/maven-status
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+.idea/compiler.xml
+.idea/misc.xml
+off-heap-examples.iml
 
 # User-specific stuff:
 .idea/workspace.xml

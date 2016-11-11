@@ -1,6 +1,5 @@
 package net.learn.perf;
 
-import net.learn.perf.Person;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

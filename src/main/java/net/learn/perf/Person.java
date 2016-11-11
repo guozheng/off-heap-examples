@@ -1,9 +1,12 @@
 package net.learn.perf;
 
+import java.io.Serializable;
+
 /**
  * Created by gzge on 11/7/16.
+ * See <url>https://github.com/OpenHFT/Chronicle-Map#chronicle-map-3-tutorial</url> for requirement on the value
  */
-public class Person {
+public class Person implements Serializable {
     private String name;
     private int age;
     private String address;
@@ -20,7 +23,7 @@ public class Person {
         return address;
     }
 
-    public Person (String name, int age, String address) {
+    public Person(String name, int age, String address) {
         this.name = name;
         this.age = age;
         this.address = address;
