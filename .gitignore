@@ -25,6 +25,7 @@ hs_err_pid*
 .idea/compiler.xml
 .idea/misc.xml
 off-heap-examples.iml
+\.idea/**
 
 # User-specific stuff:
 .idea/workspace.xml
